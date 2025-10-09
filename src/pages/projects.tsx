@@ -1,17 +1,16 @@
 import React from "react";
 import HomeLayout from "@/components/layout/home-layout";
+import ProjectCard from "@/components/ui/project-card";
 
 const ProjectsPage: React.FC = () => {
   return (
     <HomeLayout>
-      <div className="max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto">
-        <h2 className="text-xl font-semibold mb-4">Projects Page!</h2>
-        <p className="mb-2">
-          This is a simple Gatsby page using React and Tailwind CSS.
-        </p>
-        <p>
-          The body section grows to fill the available space between header and footer.
-        </p>
+      <div className="pt-12 lg:pt-5 grid md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+        <ProjectCard project={{ name: "Project 1", description: "project 1" }} />
+        <ProjectCard project={{ name: "Project 2", description: "project 2" }} />
+        <ProjectCard project={{ name: "Project 3", description: "project 3" }} />
+        <ProjectCard project={{ name: "Project 4", description: "project 4" }} />
+        <ProjectCard project={{ name: "Project 5", description: "project 5" }} />
       </div>
     </HomeLayout>
   );
