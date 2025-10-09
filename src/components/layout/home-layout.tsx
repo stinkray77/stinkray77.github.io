@@ -4,7 +4,22 @@ import GatsbyLogo from "@/assets/svg/gatsby.svg";
 import ReactLogo from "@/assets/svg/reactjs.svg";
 import TailwindLogo from "@/assets/svg/tailwind.svg";
 import ContactButton from '../ui/contact-button';
+import { NavbarContent } from '@/types/navbar';
 
+
+const navbar: NavbarContent = {
+    title: "My Portfolio",
+    contact_buttons: [
+        {
+            svgName: "contact/github",
+            link: "https://github.com"
+        },
+        {
+            svgName: "contact/linkedin",
+            link: "https://www.linkedin.com/in"
+        }
+    ]
+};
 
 const HomeLayout = ({ children }: { children: React.ReactNode }) => {
     const date = new Date();
@@ -16,11 +31,13 @@ const HomeLayout = ({ children }: { children: React.ReactNode }) => {
             <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full border-b text-sm py-3 sm:py-4 md:py-5 dark:border-gray-800">
                 <nav className="max-w-7xl flex justify-between items-center w-full mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="mr-5 md:mr-8">
-                        <Link className="flex-none text-lg md:text-xl font-semibold dark:text-white" to="/">My Portfolio</Link>
+                        <Link className="flex-none text-lg md:text-xl font-semibold dark:text-white" to="/">{navbar.title}</Link>
                     </div>
                     <div className="flex flex-row items-center gap-3">
-                        <ContactButton svgName="contact/github" link="https://github.com" />
-                        <ContactButton svgName="contact/linkedin" link="https://www.linkedin.com" />
+                        {navbar.contact_buttons.map((value, i) => {
+                            return <ContactButton key={i} svgName={value.svgName} link={value.link}>
+                            </ContactButton>
+                        })}
                     </div>
                 </nav>
             </header>
