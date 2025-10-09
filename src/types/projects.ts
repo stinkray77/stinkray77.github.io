@@ -4,7 +4,3 @@ export interface ProjectItem {
     additional_description?: string;
     date?: string;
 }
-
-export interface ProjectContent {
-    projects: ProjectItem[];
-}
