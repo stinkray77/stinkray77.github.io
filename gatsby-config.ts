@@ -8,7 +8,7 @@ const formatted = date.toLocaleDateString("en-US", options);
 
 const config: GatsbyConfig = {
   // Change this according to your repository name
-  pathPrefix: `/NocturnalProject`,
+  // pathPrefix: `/NocturnalProject`,
   siteMetadata: {
     title: `Nocturnal Project`,
     siteUrl: `https://www.yourdomain.tld`,
