@@ -79,4 +79,4 @@ const SkillsPage: React.FC<PageProps> = () => {
 
 export default SkillsPage
 
-export const Head = () => <title>Algebananazzzzz</title>
+export const Head = () => <title>stinkray77</title>
