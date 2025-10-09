@@ -7,7 +7,6 @@ import TailwindLogo from "@/assets/svg/tailwind.svg";
 import ThemeToggler from '@/components/theme/dark-toggler';
 import ContactButton from '../ui/contact-button';
 import DynamicLink from '../ui/dynamic-link';
-import { graphql, useStaticQuery } from "gatsby";
 
 const navbar: NavbarContent = {
     title: "My Portfolio",
@@ -26,15 +25,9 @@ const navbar: NavbarContent = {
 const HomeLayout = ({ children }: { children: React.ReactNode }) => {
     // const { theme, toggleTheme } = React.useContext(ThemeContext)
 
-    const data = useStaticQuery(graphql`
-    query {
-      site {
-        siteMetadata {
-          lastUpdated
-        }
-      }
-    }
-  `);
+    const date = new Date();
+    const options: Intl.DateTimeFormatOptions = { year: "numeric", month: "short", day: "numeric" };
+    const formatted = date.toLocaleDateString("en-US", options);
 
     return <>
         <body className="flex flex-col min-h-screen bg-white dark:bg-slate-900">
@@ -79,7 +72,7 @@ const HomeLayout = ({ children }: { children: React.ReactNode }) => {
             </main>
             <footer className="mt-auto w-full py-10 px-4 sm:px-6 lg:px-8 mx-auto">
                 <div className="text-center text-gray-600 dark:text-gray-400">
-                    <p >Last updated on {data.site.siteMetadata.lastUpdated}</p>
+                    <p >Last updated on {formatted}</p>
                     <p >Crafted and deployed using these technologies</p>
                     <div className="mt-3 space-x-2 flex items-center justify-center">
                         <a aria-label="gatsbyjs" href="https://www.gatsbyjs.com" className="inline-flex justify-center items-center w-10 h-10 
