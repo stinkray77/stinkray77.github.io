@@ -1,11 +1,15 @@
 export interface ContactButton {
-    // svgName and link are required
+    svgName: string;   // path to icon, e.g., contact/gitlab
+    link: string;     // external URL
 }
 
 export interface ExternalLink {
-    // title, link is required
+    title: string;
+    link?: string;     // external URL
 }
 
 export interface NavbarContent {
-    // title, contact_buttons are required, external_links is optional
+    title: string;
+    contact_buttons: ContactButton[];
+    external_links?: ExternalLink[];
 }
