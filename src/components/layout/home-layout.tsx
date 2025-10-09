@@ -7,6 +7,7 @@ import TailwindLogo from "@/assets/svg/tailwind.svg";
 import ThemeToggler from '@/components/theme/dark-toggler';
 import ContactButton from '../ui/contact-button';
 import DynamicLink from '../ui/dynamic-link';
+import { ThemeContext } from '../theme/theme-context';
 
 const navbar: NavbarContent = {
     title: "My Portfolio",
@@ -23,7 +24,7 @@ const navbar: NavbarContent = {
 };
 
 const HomeLayout = ({ children }: { children: React.ReactNode }) => {
-    // const { theme, toggleTheme } = React.useContext(ThemeContext)
+    const { theme, toggleTheme } = React.useContext(ThemeContext)
 
     const date = new Date();
     const options: Intl.DateTimeFormatOptions = { year: "numeric", month: "short", day: "numeric" };
@@ -63,7 +64,7 @@ const HomeLayout = ({ children }: { children: React.ReactNode }) => {
                                 </div>
                             })}
                         </div>
-                        {/* <ThemeToggler theme={theme} toggleTheme={toggleTheme}></ThemeToggler> */}
+                        <ThemeToggler theme={theme} toggleTheme={toggleTheme}></ThemeToggler>
                     </div>
                 </nav>
                 <div className="max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto">
