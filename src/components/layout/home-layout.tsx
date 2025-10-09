@@ -4,6 +4,7 @@ import type { NavbarContent } from "@/types/navbar";
 import GatsbyLogo from "@/assets/svg/gatsby.svg";
 import ReactLogo from "@/assets/svg/reactjs.svg";
 import TailwindLogo from "@/assets/svg/tailwind.svg";
+import ThemeToggler from '@/components/theme/dark-toggler';
 import ContactButton from '../ui/contact-button';
 import DynamicLink from '../ui/dynamic-link';
 import { graphql, useStaticQuery } from "gatsby";
@@ -23,6 +24,8 @@ const navbar: NavbarContent = {
 };
 
 const HomeLayout = ({ children }: { children: React.ReactNode }) => {
+    // const { theme, toggleTheme } = React.useContext(ThemeContext)
+
     const data = useStaticQuery(graphql`
     query {
       site {
@@ -67,6 +70,7 @@ const HomeLayout = ({ children }: { children: React.ReactNode }) => {
                                 </div>
                             })}
                         </div>
+                        {/* <ThemeToggler theme={theme} toggleTheme={toggleTheme}></ThemeToggler> */}
                     </div>
                 </nav>
                 <div className="max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto">
