@@ -1,14 +1,14 @@
-title: "Hello, I'm [Your Name]"
+title: "Hello, I'm Ray"
 description:
   - Welcome to my portfolio page! 🌱
-  - "As a [Your Profession], I [Your Professional Statement]."
+  - "As a student, I love leetcode."
 about:
   About Me:
-  - text: I love....
+  - text: I love leetcode
   Latest Endeavours:
-  - text: I'm aspiring to pass the XXX Certification
+  - text: I'm aspiring to pass the AWS Solutions Architect Associate Certification
     svgName: theme/spaceship
-  - text: I'm developing the XXX Project
+  - text: I'm developing the Project
     svgName: theme/planet
-  - text: I'm currently interning in XXX
+  - text: I'm currently interning in Apple
     svgName: theme/astronaut
