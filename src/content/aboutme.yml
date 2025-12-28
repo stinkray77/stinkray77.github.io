@@ -4,7 +4,7 @@ description:
   - "As a student, I love leetcode."
 about:
   About Me:
-  - text: I love leetcode
+  - text: I am a Computer Science student at the National University of Singapore (Minor in Mathematics) focused on the intersection of rigorous logic and high-performance engineering. My goal is to build software where efficiency and scale are the primary constraints. I am always interested in discussing low-latency systems, quantitative research, or backend architecture. Reach out if you'd like to talk tech!
   Latest Endeavours:
   - text: I'm aspiring to pass the AWS Solutions Architect Associate Certification
     svgName: theme/spaceship
