@@ -1,14 +1,13 @@
 title: "Hello, I'm Ray"
 description:
   - Welcome to my portfolio page! 🌱
-  - "As a student, I love leetcode."
 about:
   About Me:
   - text: I am a Computer Science student at the National University of Singapore (Minor in Mathematics) focused on the intersection of rigorous logic and high-performance engineering. My goal is to build software where efficiency and scale are the primary constraints. I am always interested in discussing low-latency systems, quantitative research, or backend architecture. Reach out if you'd like to talk tech!
   Latest Endeavours:
-  - text: I'm aspiring to pass the AWS Solutions Architect Associate Certification
+  - text: I am pursuing the AWS Solutions Architect Associate Certification currently
     svgName: theme/spaceship
-  - text: I'm developing the Project
+  - text: I'm currently working on a C++ Limit Order Engine
     svgName: theme/planet
-  - text: I'm currently interning in Apple
+  - text: I'm currently interning in GetMarked
     svgName: theme/astronaut

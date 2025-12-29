@@ -2,10 +2,12 @@ description:
   - "Discover my projects where I demonstrate creativity and problem-solving skills."
 
 projects:
-  - name: "Nocturnal Project"
-    description: "A succinct description of the project's purpose and functionality"
-    additional_description: "A detailed description on the project's architecture, key components, and any unique selling points. This description should be more comprehensive than the short description."
-    date: "Apr 2024"
+  - name: "Limit Order Book(C++) | High Performance Trading Engine"
+    description: "Engineered a low-latency matching engine in C++"
+    additional_description: "Utilized std::map and std::unordered_map to enforce price-time priority execution for Limit and Market orders, 
+                            and Optimized memory management by implementing smart pointers and minimizing object copies, eliminating memory 
+                            leaks and reducing overhead during high-frequency updates."
+    date: "Dec 2025"
     svgIcons:
       - gatsby
       - aws

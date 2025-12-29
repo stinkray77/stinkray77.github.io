@@ -1,23 +1,24 @@
 description:
-  - "Learn about my professional experiences that have shaped my journey in [Your Field]."
+  - "Learn about my professional experiences that have shaped my journey as a student in CS."
 
 experiences:
-  - name: "Internship: [Company Name]"
+  - name: "Internship: GetMarked"
     description:
-      - "Description of tasks and responsibilities during the internship."
-      - "Details about projects worked on and skills utilized."
-    date: "Start Date - End Date"
+      - "- Engineered an automated Python pipeline using the OpenRouter API and sentence-transformers to generate structured NLP datasets across 5 languages, enabling programmatic content generation."
+      - "- Designed rigorous JSON data structures to standardize complex linguistic attributes (phonetics, semantics, parts of speech), ensuring strict data validation for the application layer."
+      - "- Collaborated with the founder to translate linguistic constraints into technical specifications, integrating RESTful APIs for model inference to architect the core data layer for algorithmic educational resources."
+    date: "Dec 2025 - Jan 2026"
     color: blue
-    actions:
-      - text: "Recommendation Letter"
-        asset: "dummy.pdf"
+  #   actions:
+  #     - text: "Recommendation Letter"
+  #       asset: "dummy.pdf"
 
-  - name: "Mentor: [Workshop Name]"
-    description:
-      - "Overview of the workshop and topics covered."
-      - "Information about assisting participants and facilitating learning."
-    date: "Start Date - End Date"
-    color: purple
-    actions:
-      - text: "View Tutorial"
-        link: "https://example.com/workshop-tutorial"
+  # - name: "Mentor: [Workshop Name]"
+  #   description:
+  #     - "Overview of the workshop and topics covered."
+  #     - "Information about assisting participants and facilitating learning."
+  #   date: "Start Date - End Date"
+  #   color: purple
+  #   actions:
+  #     - text: "View Tutorial"
+  #       link: "https://example.com/workshop-tutorial"
