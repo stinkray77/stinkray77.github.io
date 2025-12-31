@@ -18,9 +18,9 @@ skillicons:
   - gitlab
 skills:
   Proficient:
-    - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum mauris ac tortor hendrerit.
-    - Integer at velit molestie, fermentum quam non, suscipit nibh.
-    - Ut tincidunt purus ut lorem viverra, ac aliquet lacus tempus.
+    - "Systems Programming: Building high-performance, low-latency systems in C++ with a focus on manual memory management, pointer arithmetic, and STL optimization (e.g., implementing a Limit Order Book).
+    - "Algorithms & Data Structures: Deep understanding of time/space complexity, graph theory (BFS/DFS, SCC), and dynamic programming. Experienced in applying these to competitive programming problems."
   Competent:
-    - Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-    - Vivamus tincidunt mauris non consequat aliquet.
+    - "Database Management: Designing normalized relational schemas (BCNF/3NF) and writing complex SQL queries to manage data integrity and dependencies."
+    - "Data Engineering & Scripting: Using Python for data ingestion pipelines, web scraping (automation), and computational linguistics tasks (e.g., constructing open-source dictionaries)."
+    - "Mathematics: Applying linear algebra and statistical concepts to model financial structures and solve optimization problems."

@@ -16,7 +16,7 @@ const ExperiencePage: React.FC<PageProps> = () => {
   return (
     <HomeLayout>
       <VideoPopupComponent popup={popup} setPopup={setPopup} />
-      <div className="pt-10 md:pt-0 grid lg:grid-cols-7 lg:gap-x-8 xl:gap-x-12 flex items-center">
+      <div className="pt-10 md:pt-0 grid lg:grid-cols-7 lg:gap-x-8 xl:gap-x-12">
         <div className="lg:col-span-4">
           <h1 className="flex-none font-medium text-gray-800 dark:text-gray-200 text-3xl md:text-4xl lg:text-5xl inline-flex items-center">
             Experiences
