@@ -18,9 +18,9 @@ skillicons:
   - gitlab
 skills:
   Proficient:
-    - "Systems Programming: Building high-performance, low-latency systems in C++ with a focus on manual memory management, pointer arithmetic, and STL optimization (e.g., implementing a Limit Order Book).
-    - "Algorithms & Data Structures: Deep understanding of time/space complexity, graph theory (BFS/DFS, SCC), and dynamic programming. Experienced in applying these to competitive programming problems."
+    - Systems Programming - Building high-performance, low-latency systems in C++ with a focus on manual memory management, pointer arithmetic, and STL optimization (e.g., implementing a Limit Order Book).
+    - Algorithms & Data Structures - Deep understanding of time/space complexity, graph theory (BFS/DFS, SCC), and dynamic programming. Experienced in applying these to competitive programming problems.
   Competent:
-    - "Database Management: Designing normalized relational schemas (BCNF/3NF) and writing complex SQL queries to manage data integrity and dependencies."
-    - "Data Engineering & Scripting: Using Python for data ingestion pipelines, web scraping (automation), and computational linguistics tasks (e.g., constructing open-source dictionaries)."
-    - "Mathematics: Applying linear algebra and statistical concepts to model financial structures and solve optimization problems."
+    - Database Management - Designing normalized relational schemas (BCNF/3NF) and writing complex SQL queries to manage data integrity and dependencies.
+    - Data Engineering & Scripting - Using Python for data ingestion pipelines, web scraping (automation), and computational linguistics tasks (e.g., constructing open-source dictionaries).
+  
