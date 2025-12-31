@@ -12,4 +12,4 @@ contact_buttons:
 external_links:
   # For external links. Optional, remove items to omit from navbar
   - title: Resume #
-    asset: resumeofficial.pdf # relative path to src/static
+    asset: quantresume.pdf # relative path to src/static
