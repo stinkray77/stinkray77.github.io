@@ -26,9 +26,14 @@ skillicons:
   - postgresql
 skills:
     Proficient:
-      - Systems Programming: "Building high-performance, low-latency systems in C++ with a focus on manual memory management, pointer arithmetic, and STL optimization (e.g., implementing a Limit Order Book)."
-      - Algorithms & Data Structures: "Deep understanding of time/space complexity, graph theory (BFS/DFS, SCC), and dynamic programming. Experienced in applying these to competitive programming problems."
+      - title: "Systems Programming"
+        description: "Building high-performance, low-latency systems in C++ with a focus on manual memory management, pointer arithmetic, and STL optimization (e.g., implementing a Limit Order Book)."
+      - title: "Algorithms & Data Structures" 
+        description: "Deep understanding of time/space complexity, graph theory (BFS/DFS, SCC), and dynamic programming. Experienced in applying these to competitive programming problems."
     Competent:
-      - Data Engineering & Scripting: "Using Python for data ingestion pipelines, web scraping (automation), and computational linguistics tasks (e.g., constructing open-source dictionaries)."
-      - Database Management: "Designing normalized relational schemas (BCNF/3NF) and writing complex SQL queries to manage data integrity and dependencies."
-      - Mathematics: "Applying linear algebra and statistical concepts to model financial structures and solve optimization problems."
+      - title: "Data Engineering & Scripting"
+        description: "Using Python for data ingestion pipelines, web scraping (automation), and computational linguistics tasks (e.g., constructing open-source dictionaries)."
+      - title: "Database Management"
+        description: "Designing normalized relational schemas (BCNF/3NF) and writing complex SQL queries to manage data integrity and dependencies."
+      - title: "Mathematics"
+        description: "Applying linear algebra and statistical concepts to model financial structures and solve optimization problems."
